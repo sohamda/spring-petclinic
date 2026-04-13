@@ -21,8 +21,7 @@ import java.util.Locale;
  * @author Anuj Ashok Potdar
  */
 @Configuration
-@SuppressWarnings("unused")
-public class WebConfiguration implements WebMvcConfigurer {
+class WebConfiguration implements WebMvcConfigurer {
 
 	/**
 	 * Uses session storage to remember the user’s language setting across requests.
